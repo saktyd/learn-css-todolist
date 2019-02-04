@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+.container {
+  width: 1000;
+  margin: 10px auto;
+  padding: 20px;
+  /* border: 1.5px solid black; */
+}
+
+.nav li,
+.nav a {
+  display: inline-block;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.list-todolist {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav {
+  background-image: url("assets/ramiro-mendes-237525-unsplash.jpeg");
+  /* width: 500; */
+  border: 1.5px solid black;
+  margin: 10px auto;
+  padding: 20px;
+  text-align: center;
+  /* background-position: center; */
+}
+
+main {
+  list-style: none;
+  text-align: center;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+.input-label {
+  border-radius: 3px;
+  padding: 8px;
+  margin: 5px auto;
+  width: 250px;
+}
+
+.input-button-label {
+  background-color: black;
+  padding: 8px;
+  margin: 2px auto;
+  color: white;
+  border-radius: 3px;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em;
+}
+
+footer {
+  width: 1000;
+  border-top: 1.5px solid black;
+  margin: 10px auto;
+  padding: 5px;
+  text-align: center;
+}
+
+.container-app {
+  width: 350px;
+  border: 1.5px solid black;
+  margin: 10px auto;
+  padding: 10px;
+}

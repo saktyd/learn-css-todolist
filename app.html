@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>MytaskApp</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+
+  <body>
+    <!-- HEAD -->
+    <header>
+      <div>
+        <nav id="nav" class="nav">
+          <h1 id="title" class="title">
+            <img src="./assets/logo.png" alt="Logo" height="30" width="30" />
+            MyTask
+          </h1>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="app.html">App</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- BODY -->
+
+    <main>
+      <form id="form" onsubmit="Submit()">
+        <input
+          id="input-text"
+          class="input-text"
+          type="text"
+          placeholder="take a note"
+        />
+        <input
+          id="submit"
+          class="input-button-label"
+          type="submit"
+          value="add"
+        />
+      </form>
+      <form>
+        <ul id="list-todolist" class="list-todolist">
+          <!-- sad -->
+        </ul>
+      </form>
+    </main>
+    <!-- FOOTER -->
+    <footer><small>2019 Impactbyte</small></footer>
+    <script src="app.js"></script>
+  </body>
+</html>
