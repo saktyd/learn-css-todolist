@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 .container {
   width: 1000;
@@ -19,7 +19,7 @@
 }
 
 .nav {
-  background-image: url("assets/ramiro-mendes-237525-unsplash.jpeg");
+  background-image: url('assets/cover.jpeg');
   /* width: 500; */
   border: 1.5px solid black;
   margin: 10px auto;
@@ -53,7 +53,7 @@ body {
 }
 
 .title {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
 }
 
